@@ -1,0 +1,37 @@
+# Arquivos de estado
+terraform.tfstate
+terraform.tfstate.backup
+
+# Diretório de trabalho do Terraform
+.terraform/
+
+# Arquivos de lock (opcional)
+.terraform.lock.hcl
+
+# Arquivos temporários de plano
+*.tfplan
+
+# Arquivos de variáveis sensíveis
+*.tfvars
+
+# Docker
+docker-compose.override.yml
+
+# Diretórios de build e distribuição
+**/build/
+**/dist/
+
+# Arquivos de configuração sensíveis
+.env
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários
+*.tar
+
+# Dependências de desenvolvimento
+node_modules/
+
+# Arquivos de cache
+.dockerignore
